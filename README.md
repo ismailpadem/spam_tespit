@@ -7,7 +7,6 @@ Bu projede, biz metin mesajlarını otomatik olarak "spam" (önemsiz/istenmeyen)
 ### Temel Hedeflerimiz
 - E-posta ve SMS mesajları için etkili bir spam tespit sistemi geliştirmek
 - Yüksek doğruluk oranıyla istenmeyen mesajları otomatik filtrelemek
-- CUDA GPU desteği ile hızlı eğitim ve tahmin sağlamak
 - Gerçek zamanlı spam tespiti için optimize edilmiş model oluşturmak
 - Kapsamlı sonuç analizi ve raporlama sistemi kurmak
 
@@ -23,13 +22,13 @@ Bu projede, biz metin mesajlarını otomatik olarak "spam" (önemsiz/istenmeyen)
 
 ### Model Mimarisi
 - **Ana Model**: PyTorch Embedding + Fully Connected Network
-- **Embedding Boyutu**: 128 (yapılandırılabilir)
+- **Embedding Boyutu**: 128 
 - **Maksimum Metin Uzunluğu**: 20 kelime
 - **Dropout Oranı**: 0.3
 - **Öğrenme Oranı**: 0.001
 - **Optimizasyon**: Adam Optimizer
 - **Kayıp Fonksiyonu**: Binary Cross Entropy Loss
-- **Aktivasyon**: Sigmoid (çıkış katmanı)
+- **Aktivasyon**: Sigmoid
 
 ### Test Ortamı ve Donanım
 - **İşletim Sistemi**: Windows 11
@@ -73,8 +72,6 @@ Biz bu projede kapsamlı bir sonuç analizi gerçekleştirdik. Aşağıda elde e
 - **Ortalama Epoch Süresi**: 0.34 saniye
 - **Eğitim Epoch Sayısı**: 10 epoch
 - **Batch Boyutu**: 32
-- **GPU Kullanıldı**: NVIDIA GeForce RTX 4060 Laptop GPU
-- **GPU Hızlanması**: 15-20x CPU'ya göre
 
 ### Veri Seti İstatistikleri
 - **Toplam Örneklem**: 5,569 mesaj
@@ -143,11 +140,11 @@ Biz bu projede kapsamlı bir sonuç analizi gerçekleştirdik. Aşağıda elde e
 Biz eğitim sürecinin ve sonuçların görsel analizini şu grafiklerde sunuyoruz:
 
 #### 1. Eğitim Geçmişi
-![Eğitim Geçmişi](training_plots.png)
+![Eğitim Geçmişi](results/training_plots.png)
 *Eğitim ve test kayıpları ile doğruluk oranlarının gelişimi*
 
 #### 2. Karışıklık Matrisi
-![Karışıklık Matrisi](confusion_matrix.png)
+![Karışıklık Matrisi](results/confusion_matrix.png)
 *Gerçek ve tahmin edilen sınıflar arasındaki ilişki*
 
 ### Detaylı Sonuç Dosyaları
