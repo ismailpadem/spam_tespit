@@ -140,11 +140,11 @@ Biz bu projede kapsamlı bir sonuç analizi gerçekleştirdik. Aşağıda elde e
 Biz eğitim sürecinin ve sonuçların görsel analizini şu grafiklerde sunuyoruz:
 
 #### 1. Eğitim Geçmişi
-![Eğitim Geçmişi](results/training_plots.png)
+![Eğitim Geçmişi](spam_results/training_plots.png)
 *Eğitim ve test kayıpları ile doğruluk oranlarının gelişimi*
 
 #### 2. Karışıklık Matrisi
-![Karışıklık Matrisi](results/confusion_matrix.png)
+![Karışıklık Matrisi](spam_results/confusion_matrix.png)
 *Gerçek ve tahmin edilen sınıflar arasındaki ilişki*
 
 ### Detaylı Sonuç Dosyaları
