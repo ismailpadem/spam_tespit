@@ -55,7 +55,7 @@ NLP_Final/
 
 ## Test Sonuçları ve Performans Metrikleri
 
-Biz bu projede kapsamlı bir sonuç analizi gerçekleştirdik. Aşağıda elde ettiğimiz kesin metrikleri bulabilirsiniz:
+Bu projede kapsamlı bir sonuç analizi gerçekleştirdik. Aşağıda elde ettiğimiz kesin metrikleri bulabilirsiniz:
 
 ### Ana Performans Metrikleri
 - **Test Doğruluğu**: %97.13
@@ -137,7 +137,7 @@ Biz bu projede kapsamlı bir sonuç analizi gerçekleştirdik. Aşağıda elde e
 
 ### Görsel Sonuçlar
 
-Biz eğitim sürecinin ve sonuçların görsel analizini şu grafiklerde sunuyoruz:
+Eğitim sürecinin ve sonuçların görsel analizini şu grafiklerde sunuyoruz:
 
 #### 1. Eğitim Geçmişi
 ![Eğitim Geçmişi](spam_results/training_plots.png)
@@ -149,7 +149,7 @@ Biz eğitim sürecinin ve sonuçların görsel analizini şu grafiklerde sunuyor
 
 ### Detaylı Sonuç Dosyaları
 
-Biz kapsamlı sonuç analizi için şu dosyaları oluşturduk:
+Kapsamlı sonuç analizi için şu dosyaları oluşturduk:
 
 1. **`spam_results/spam_results_YYYYMMDD_HHMMSS.json`**
    - Tüm eğitim parametreleri ve sonuçları (JSON formatında)
@@ -176,7 +176,7 @@ Biz kapsamlı sonuç analizi için şu dosyaları oluşturduk:
 
 ### Gerekli Kütüphaneler
 
-Biz bu projede aşağıdaki Python kütüphanelerini kullandık:
+Bu projede aşağıdaki Python kütüphanelerini kullanıldı:
 
 ```bash
 # Temel derin öğrenme kütüphaneleri
@@ -200,8 +200,7 @@ seaborn>=0.11.0
 
 1. **Depoyu klonlayın veya dosyaları indirin**
 ```bash
-git clone <repository-url>
-cd NLP_Final
+git clone <https://github.com/ismailpadem/spam_tespit>
 ```
 
 2. **Gerekli kütüphaneleri yükleyin**
@@ -230,15 +229,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ### Modeli Eğitme
 
-Biz modeli eğitmek için şu komutu kullanıyoruz:
-
-```bash
-# Ana klasöre gidin
-cd NLP_Final
-
-# Spam tespit modelini eğitin
-python spam_tespit/spam_detection.py
-```
 
 Bu komut şunları gerçekleştirir:
 - Veri setini yükler ve ön işleme tabi tutar
@@ -268,7 +258,7 @@ Eğitim tamamlandıktan sonra:
 
 ## Özelleştirme Seçenekleri
 
-Biz modeli özelleştirmek için şu parametreleri değiştirebilirsiniz:
+Modeli özelleştirmek için şu parametreleri değiştirebilirsiniz:
 
 ```python
 # spam_detection.py dosyasında main() fonksiyonunda
