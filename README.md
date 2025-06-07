@@ -1,5 +1,10 @@
 # Spam (Önemsiz E-posta) Tespit Sistemi
 
+## Hazırlayanlar
+- İsmail PADEM 2020717035
+- Mustafa Akipek 20217170030
+- Yaren Akpınar 20217170013
+
 ## Projenin Amacı
 
 Bu projede, biz metin mesajlarını otomatik olarak "spam" (önemsiz/istenmeyen) veya "ham" (normal/istenen) olarak sınıflandıran gelişmiş bir makine öğrenmesi sistemi geliştirdik. PyTorch kullanarak derin öğrenme tekniklerini uygulayarak, e-posta ve SMS mesajlarını yüksek doğrulukla kategorize edebilen bir model oluşturduk.
